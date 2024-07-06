@@ -13,7 +13,7 @@
     <nav>
       <ul>
         <li><a href="#hello">Hello</a></li>
-        <li><a href="#resume">Resume</a></li>
+        <li><a href="/assets/Anurag.pdf" target="_blank">Resume</a></li>
         <!--<li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#testimonials">Testimonials</a></li>-->
         <!--<li><a href="#blog">blog</a></li>-->
@@ -27,7 +27,7 @@
   <div class="container">
     <div class="profile card">
       <div class="basic-info display-flex pl-20 pr-20">
-        <img src="/images/photo.jpeg" alt="Profile Photo" width="250" height="325">
+        <img src="/assets/photo.jpeg" alt="Profile Photo" width="250" height="325">
         <div class="pl-20 pr-20 mt-20">
           <h1>Anurag &nbsp;Singh</h1>
           <h3>Senior&nbsp;&nbsp;Software&nbsp;&nbsp;Engineer - Zynga</h3>
@@ -110,6 +110,20 @@
         </div>
       </div>
     </div>
+
+    <div id="galery" class="galery mt-20 card">
+      <div class="blur-bg"></div>
+      <div class="slideshow-container pt-20">
+        <img id="galeryImage" />
+        <div class="pic-detail mt-10">
+          <span id="numbertext"></span>&nbsp;:&nbsp;<span id="caption"></span>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div id="dotcontainer" class="text-center mt-10"></div>
+        </div>
+      </div>
+    </div>
+
     <div class="contact mt-20 p-20 card display-flex">
       <div class="personal-contact">
         <p>Phone : +91 8985892436</p>
@@ -164,19 +178,6 @@
           </svg>
         </a>
       </div>
-    </div>
-    <div id="galery" class="galery mt-20 card">
-      <div class="blur-bg"></div>
-      <div class="slideshow-container pt-20">
-        <img id="galeryImage" />
-        <div class="pic-detail mt-10">
-          <span id="numbertext"></span>&nbsp;:&nbsp;<span id="caption"></span>
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          <div id="dotcontainer" class="text-center mt-10"></div>
-        </div>
-      </div>
-
     </div>
   </div>
   </div>
