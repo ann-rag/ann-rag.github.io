@@ -82,7 +82,7 @@ h3,.h3{font-size: 16px;}
 .display-flex{display: flex;}
 
 body{
-    background-image: url(/images/background.jpeg);
+    background-image: url(/assets/background.jpeg);
     background-size: 120%;
     background-repeat: no-repeat;
     background-position-y: -200px;
